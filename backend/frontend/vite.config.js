@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3001,
     proxy: {
       "/api": {
-        target: "https://tavbandhu.onrender.com",
+        target: "https://bandhu-eiq4.onrender.com",
         changeOrigin: true,
       },
     },

@@ -15,7 +15,7 @@ export const SocketProvider = ({ children }) => {
 
   useEffect(() => {
     if (authUser) {
-      const socket = io("https://tavbandhu.onrender.com", {
+      const socket = io("https://bandhu-eiq4.onrender.com", {
         query: {
           userId: authUser.user._id,
         },
